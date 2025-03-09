@@ -1,0 +1,10 @@
+mysql -h <hostname> -u root -p<password> < employees.sql
+
+mysql -h employee-db.cz6m2u2osh2x.us-east-1.rds.amazonaws.com -u admin -pbad_project_02 < employees.sql
+mysql -h employee-db.cz6m2u2osh2x.us-east-1.rds.amazonaws.com -u admin -pbad_project_02
+
+username = admin
+password = bad_project_02
+rds_endpoint = employee-db.cz6m2u2osh2x.us-east-1.rds.amazonaws.com
+db_name = employees
+s3_bucket = sha-th-bad-project-02

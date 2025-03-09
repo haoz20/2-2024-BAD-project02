@@ -1,0 +1,116 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #343a40;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 1em;
+}
+
+header nav ul li a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+/* Main container */
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+section h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5em;
+}
+
+/* Form styling */
+form .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+form .form-row label {
+  width: 150px;
+  min-width: 150px;
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+form .form-row input[type="text"],
+form .form-row input[type="date"],
+form .form-row input[type="number"],
+form .form-row select {
+  flex: 1; /* Take up remaining space */
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Button styling */
+button {
+  background: #007bff;
+  color: #fff;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 0.5em;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 0.5em;
+  text-align: left;
+}
+
+/* Additional classes */
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+

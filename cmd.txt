@@ -1,0 +1,24 @@
+//Create Bucket
+// aws s3api create-bucket --bucket <bucket-name> --region us-east-1
+
+//--------------------------------------------------------------------------------------------
+
+// To Put Objects to S3 //
+// aws s3 cp resources/website s3://<bucket-name>/ --recursive --cache-control "max-age=0"
+/// --------------------------------------------------------------------------------------------
+
+// Upload file
+// aws s3 cp file-name  s3://<bucketn-name>
+
+//--------------------------------------------------------------------------------------------
+
+/*
+
+Add Mapping Template to Enable CORS of onOffer API
+
+{
+"path": "$context.resourcePath"
+  }
+*/ 
+
+//--------------------------------------------------------------------------------------------
